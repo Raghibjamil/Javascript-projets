@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather Application</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-container">
+        <input type="text" placeholder="enter the city name" class="input" />
+        <button class="btn">
+          <img src="./images/search.png" alt="error" />
+        </button>
+      </div>
+
+      <div class="invalid-conatiner">Invalid City Name</div>
+
+      <div class="sub-conatiner">
+        <div class="sub-main-container">
+          <img src="./images/clear.png" alt="error" class="weather-image" />
+          <h2 class="degree">34°C</h2>
+          <h2 class="city-name">Kolkata</h2>
+        </div>
+
+        <div class="footer-container">
+          <div class="humidity-box">
+            <img src="./images/humidity.png" alt="error" />
+            <h2 class="humidity-percentage">63%</h2>
+            <h2 class="humidity-name">Humidity</h2>
+          </div>
+
+          <div class="humidity-box2">
+            <img src="./images/wind.png" alt="error" />
+            <h2 class="humidity-percentage2">3km/hr</h2>
+            <h2 class="humidity-name2">Wind Speed</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="./index.js"></script>
+  </body>
+</html>
