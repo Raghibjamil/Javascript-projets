@@ -73,6 +73,7 @@ Setting a background to transparent means that whatever is behind the element wi
     font-size: 18px;
     cursor: pointer;
     border-radius: 40px;
+    
 }
 ul li{
     list-style: none;
@@ -129,6 +130,30 @@ ul li span:hover{
 @media screen and (max-width:576px) {
     .todo-app{
         max-width: 100%;
+    }
+    .row{
+        flex-direction: column;
+        background-color: #fff;
+        row-gap: 25px;
+        padding-left: 0px;
+        
+    }
+    .row>input{
+        background-color: #edeef0;
+        margin-right: 70px;
+        align-self: flex-start;
+       width: 100%;
+       border-radius: 25px;
+       padding: 25px;
+        
+
+
+    }
+    .row>button{
+        align-self: flex-start;
+        width: 100%;
+       border-radius: 25px;
+       padding: 25px;
     }
 
 }
