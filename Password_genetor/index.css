@@ -77,6 +77,11 @@ body{
     .container>h1{
         font-size: 35px;
     }
+    .display>img{
+        width: 20gpx;
+        
+    }
+   
 }
 @media screen and (max-width:800px){
     .container{
