@@ -101,7 +101,7 @@ function selectAnswer(e){
     Array.from(answerButton.children).forEach((button)=>{
         if(button.dataset.correct === "true"){
             button.classList.add("correct");
-        }
+        } 
 
         /**
          * disable pseudo class:-
